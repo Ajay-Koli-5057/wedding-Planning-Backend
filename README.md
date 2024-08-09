@@ -4,6 +4,16 @@
 
 This project is a backend designed to help manage wedding planning tasks. The backend is built with NestJS, PostgreSQL, and TypeORM. wedding party management, and task management Api created. The project also integrates with ChatGPT for enhanced functionality.
 
+
+## Prerequisites
+
+1. **Clone the Frontend and Backend Repositories**
+   - Clone the repositories to your local machine using `git clone https://github.com/Ajay-Koli-5057/wedding-Planning-Backend.git`.
+   - GITHUB URL :- `https://github.com/Ajay-Koli-5057/wedding-Planning-Backend.git`.
+
+2. **Ensure Postgresql is Installed**
+   - Make sure you have Postgresql installed on your system for the database setup.
+
 ## Installation
 
 Follow these steps to set up the project:
@@ -20,7 +30,7 @@ Follow these steps to set up the project:
     ```bash
     npm install @nestjs/typeorm typeorm pg
     npm install @nestjs/config
-    npm install axios
+    npm install @nestjs/axios
     npm install class-validator class-transformer
     npm install --save-dev @nestjs/testing
     npm install openai
